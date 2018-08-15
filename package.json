@@ -6,5 +6,12 @@
   "repository": "git@github.com:impactbyte-learn/code-javascript-test.git",
   "author": "M Haidar Hanif <git@mhaidarhanif.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "node src",
+    "test": "jest test"
+  },
+  "devDependencies": {
+    "jest": "23.5.0"
+  }
 }
